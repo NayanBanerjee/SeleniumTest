@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11" started-at="2014-11-25T11:00:19Z" finished-at="2014-11-25T11:00:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11" started-at="2014-11-25T11:00:19Z" finished-at="2014-11-25T11:00:19Z">
+      <class name="com.jopari.testscript.testscripts.TimeSheetHome">
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext, java.lang.Boolean)[pri:0, instance:com.jopari.testscript.testscripts.TimeSheetHome@16995df]" name="setUp" is-config="true" duration-ms="0" started-at="2014-11-25T16:30:19Z" finished-at="2014-11-25T16:30:19Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@1adae5d]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at java.util.Hashtable.put(Unknown Source)
+	at java.util.Properties.setProperty(Unknown Source)
+	at java.lang.System.setProperty(Unknown Source)
+	at com.jopari.automation.selenium.test.BaseTestCase.setUp(BaseTestCase.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="login()[pri:0, instance:com.jopari.testscript.testscripts.TimeSheetHome@16995df]" name="login" is-config="true" duration-ms="0" started-at="2014-11-25T16:30:19Z" finished-at="2014-11-25T16:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="getSelenium(boolean, java.lang.String)[pri:0, instance:com.jopari.testscript.testscripts.TimeSheetHome@16995df]" name="getSelenium" is-config="true" duration-ms="0" started-at="2014-11-25T16:30:19Z" finished-at="2014-11-25T16:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSelenium -->
+        <test-method status="SKIP" signature="setTestContext(java.lang.reflect.Method)[pri:0, instance:com.jopari.testscript.testscripts.TimeSheetHome@16995df]" name="setTestContext" is-config="true" duration-ms="0" started-at="2014-11-25T16:30:19Z" finished-at="2014-11-25T16:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestContext -->
+        <test-method status="SKIP" signature="isSelectedYearpresentYear()[pri:0, instance:com.jopari.testscript.testscripts.TimeSheetHome@16995df]" name="isSelectedYearpresentYear" duration-ms="0" started-at="2014-11-25T16:30:19Z" finished-at="2014-11-25T16:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSelectedYearpresentYear -->
+        <test-method status="SKIP" signature="setTestContext(java.lang.reflect.Method)[pri:0, instance:com.jopari.testscript.testscripts.TimeSheetHome@16995df]" name="setTestContext" is-config="true" duration-ms="0" started-at="2014-11-25T16:30:19Z" finished-at="2014-11-25T16:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestContext -->
+        <test-method status="SKIP" signature="show()[pri:0, instance:com.jopari.testscript.testscripts.TimeSheetHome@16995df]" name="show" duration-ms="0" started-at="2014-11-25T16:30:19Z" finished-at="2014-11-25T16:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- show -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jopari.testscript.testscripts.TimeSheetHome@16995df]" name="tearDown" is-config="true" duration-ms="1" started-at="2014-11-25T16:30:19Z" finished-at="2014-11-25T16:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jopari.testscript.testscripts.TimeSheetHome -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

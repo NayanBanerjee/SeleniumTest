@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TC002_VerifyManagePayers"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="71.002">
+  <properties />
+  
+  
+            <testcase name="testPayerFeatures" time="42.393" classname="com.jopari.testscript.testscripts.ProviderManagePayers" />
+                <testcase name="testEFTValuesRequires" time="3.106" classname="com.jopari.testscript.testscripts.ProviderManagePayers" />
+                <testcase name="testUsernameOnLeft" time="1.855" classname="com.jopari.testscript.testscripts.ProviderManagePayers" />
+                <testcase name="testLogout" time="4.151" classname="com.jopari.testscript.testscripts.ProviderManagePayers" />
+                <testcase name="testTerms" time="7.732" classname="com.jopari.testscript.testscripts.ProviderManagePayers" />
+                <testcase name="testERAFeatures" time="7.662" classname="com.jopari.testscript.testscripts.ProviderManagePayers" />
+                <testcase name="testPSIOnlyValuesNA" time="4.103" classname="com.jopari.testscript.testscripts.ProviderManagePayers" />
+      
+</testsuite>

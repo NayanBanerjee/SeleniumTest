@@ -1,0 +1,3 @@
+2014-12-04 12:42:37,608 INFO  [com.jopari.automation.testng.util.TestNGHelper] Message: Generating XMLSuites from: .\src\main\java\com\jopari\testscript\testsuites\Travel.xml
+2014-12-04 12:42:37,732 INFO  [com.jopari.testscript.testscripts.AutomationTestSuiteRunner] Message: Adding XMLSuites for file: .\src\main\java\com\jopari\testscript\testsuites\Travel.xml, into list to execute
+2014-12-04 12:42:47,244 INFO  [com.jopari.testscript.testscripts.TravelRequest] Message: Killed processes

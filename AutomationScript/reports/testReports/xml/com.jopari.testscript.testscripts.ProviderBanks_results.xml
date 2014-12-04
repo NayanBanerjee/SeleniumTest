@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ProviderBanks"
+           tests="42"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2463.617">
+  <properties />
+  
+  
+            <testcase name="testInvalidNpiHyphens" time="52.743" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testAccountNameExisting" time="50.845" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testValidTin" time="50.803" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testAccountNameMaxCharacters" time="50.767" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testFaxBankVerficationLinkEmptyData" time="50.726" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testSavingsTypeOfAccount" time="52.022" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testSeventeenDigitAccountNumber" time="50.869" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testInvalidRoutingNumberNotMathcingBank" time="49.719" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testLogin" time="74.659" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testInvalidRoutingNumberSpecialCharacters" time="49.179" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testInvalidNpiNineDigits" time="50.843" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testInvalidRoutingNumberAlphanumeric" time="49.708" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testInvalidNpiAlphabetsOnly" time="50.909" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testInvalidNpiSpecialCharacters" time="50.949" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testAddBankAccountLink" time="47.613" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testInvalidTinspecialCharacters" time="50.949" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testUploadPdfBankVerficationBankLetter" time="89.598" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testInvalidTinTenDigits" time="50.879" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testUploadDocFileBankVerfication" time="81.347" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testBankVerficationFormWindow" time="64.149" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testAccountNameSingleCharacter" time="51.058" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testAddAccountEmptyData" time="51.741" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testValidNpi" time="50.947" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testUploadPdfBankVerficationVoidedCheck" time="89.968" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testInvalidTinAlphabetsOnly" time="53.990" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testValidRoutingNumber" time="49.736" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testCheckingTypeOfAccount" time="58.793" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testExistingRoutingAndAccountNumber" time="54.084" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testValidAccountNumber" time="56.938" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testFourDigitAccountNumber" time="50.428" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testUploadPdfBankVerficationNoAttachmentType" time="79.067" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testInvalidNpiSinlgeDigit" time="51.084" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testAccountNameMoreThanMaxCharacters" time="52.033" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testSpecialCharsAccountNumber" time="50.899" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testUploadImageJpgBankVerfication" time="89.883" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testInvalidRoutingNumberSingleDigit" time="58.270" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testBankVerficationLinkEmptyData" time="53.948" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testUploadImageTifBankVerfication" time="90.969" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testUploadImagePngBankVerfication" time="89.731" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testInvalidRoutingNumberNineDigits" time="58.907" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testInvalidTinSingleDigit" time="50.841" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+                <testcase name="testInvalidTinHyphens" time="51.026" classname="com.jopari.testscript.testscripts.ProviderBanks" />
+      
+</testsuite>

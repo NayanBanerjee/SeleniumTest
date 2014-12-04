@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HRPinfo"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.856">
+  <properties />
+  
+  
+            <testcase name="loginwithDataSet" time="4.400" classname="com.jopari.testscript.testscripts.TravelRequest" />
+                <testcase name="loginwithDataSet" time="4.838" classname="com.jopari.testscript.testscripts.TravelRequest" />
+                <testcase name="loginwithDataSet" time="4.618" classname="com.jopari.testscript.testscripts.TravelRequest" />
+      
+</testsuite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TC005_VerifyAssistUsers"
+           tests="11"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="141.712">
+  <properties />
+  
+  
+            <testcase name="testMatchingFileId" time="8.631" classname="com.jopari.testscript.testscripts.SearchPaymentFile" />
+                <testcase name="testDetailLink" time="13.927" classname="com.jopari.testscript.testscripts.SearchPaymentFile" />
+                <testcase name="testOnlyThruDate" time="19.217" classname="com.jopari.testscript.testscripts.SearchPaymentFile" />
+                <testcase name="testUserName" time="4.454" classname="com.jopari.testscript.testscripts.SearchPaymentFile" />
+                <testcase name="testRefreshButton" time="5.657" classname="com.jopari.testscript.testscripts.SearchPaymentFile" />
+                <testcase name="testOnlyFromDate" time="17.200" classname="com.jopari.testscript.testscripts.SearchPaymentFile" />
+                <testcase name="testDetailOnBatchPayer" time="15.134" classname="com.jopari.testscript.testscripts.SearchPaymentFile" />
+                <testcase name="testTermsLink" time="11.002" classname="com.jopari.testscript.testscripts.SearchPaymentFile" />
+                <testcase name="testBackButtonFunction" time="11.133" classname="com.jopari.testscript.testscripts.SearchPaymentFile" />
+                <testcase name="testUnmatchingFileId" time="7.340" classname="com.jopari.testscript.testscripts.SearchPaymentFile" />
+                <testcase name="testRecordInDateRange" time="28.017" classname="com.jopari.testscript.testscripts.SearchPaymentFile" />
+      
+</testsuite>

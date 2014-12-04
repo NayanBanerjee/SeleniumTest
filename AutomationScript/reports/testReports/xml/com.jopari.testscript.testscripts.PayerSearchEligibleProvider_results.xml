@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TC005_SearchEligibleProvider"
+           tests="50"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1446.096">
+  <properties />
+  
+  
+            <testcase name="testOrgNameLinkOrder" time="102.110" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testInvalidAccountName" time="5.192" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testAddress" time="5.709" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testRefresh" time="8.168" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testLastChangeLinkOrder" time="148.110" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testInvalidTaxID" time="5.219" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testBankName" time="43.554" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testInvalidPayeeID" time="5.211" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testInvalidProviderLastName" time="5.225" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testAllProviderNames" time="6.114" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testInvalidBankName" time="5.188" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testProviderLastName" time="10.323" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testAllAccountNames" time="60.922" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testAccountName" time="24.704" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testBankAndRegStatus" time="36.341" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testUsernameOnLeft" time="2.699" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testACHStatusOK" time="9.835" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testPayeeLinkOrder" time="132.404" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testCity" time="7.022" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testPayeeIDAndAchStatus" time="6.212" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testRegistrationStatusNotEnrolled" time="38.124" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testTaxIDLinkOrder" time="118.677" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testReverseTab" time="18.271" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testAllBankNames" time="56.148" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testRoutingNumber" time="23.546" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testNPI" time="5.489" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testInvalidAddress" time="5.218" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testInvalidNPI" time="5.214" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testPayer" time="0.357" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testPayerLinkOrder" time="82.669" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testACHStatusBAD" time="5.529" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testRegistrationStatusEnrolledNoBank" time="6.197" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testAccountNumber" time="23.437" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testInvalidCity" time="5.214" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testTerms" time="18.090" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testTab" time="0.856" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testPayeeID" time="5.646" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testAllOrganisationNames" time="6.442" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testInvalidRoutingNumber" time="5.267" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testRegistrationStatusEnrolled" time="61.640" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testOrgNameAndPayer" time="5.674" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testTaxID" time="20.546" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testACHStatusPendingApproval" time="5.509" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testOrganisationName" time="5.822" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testInvalidAccountNumber" time="5.232" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testSearchPayer" time="38.274" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testInvalidOrganisationName" time="5.208" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testChangeFromChangeThrough" time="76.724" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testNPILinkOrder" time="153.961" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+                <testcase name="testRegistrationStatusDisenrolled" time="6.853" classname="com.jopari.testscript.testscripts.PayerSearchEligibleProvider" />
+      
+</testsuite>

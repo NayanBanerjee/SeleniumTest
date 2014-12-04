@@ -1,0 +1,9 @@
+2014-07-11 17:55:29,186 INFO  [com.jopari.automation.testng.util.TestNGHelper] Message: [com.jopari.automation.testng.util.TestNGHelper] :Generating XMLSuites from: .\src\main\java\com\jopari\testscript\testsuites\ProviderBanks.xml
+2014-07-11 17:55:29,320 INFO  [com.jopari.testscript.testscripts.AutomationTestSuiteRunner] Message: [com.jopari.testscript.testscripts.AutomationTestSuiteRunner] :Adding XMLSuites for file: .\src\main\java\com\jopari\testscript\testsuites\ProviderBanks.xml, into list to execute
+2014-07-11 17:55:42,141 INFO  [com.jopari.testscript.testscripts.util.TestUtil] Message: [com.jopari.testscript.testscripts.util.TestUtil] :Entering Login
+2014-07-11 17:55:42,141 INFO  [com.jopari.testscript.testscripts.util.TestUtil] Message: [com.jopari.testscript.testscripts.util.TestUtil] :Reading username and password from excel sheet :/D:/july11 workspace/AutomationScript/target/classes/PNCData.xlsx
+2014-07-11 17:55:42,141 INFO  [com.jopari.testscript.testscripts.util.TestUtil] Message: [com.jopari.testscript.testscripts.util.TestUtil] :Logging with username :testuser1@provider.com and password:jopari123
+2014-07-11 17:56:24,058 INFO  [com.jopari.testscript.testscripts.ProviderBanks] Message: [com.jopari.testscript.testscripts.ProviderBanks] :Entering test method :testAddNewBankStatusSent
+2014-07-11 17:56:24,169 INFO  [com.jopari.testscript.pageobjects.HomePage] Message: [com.jopari.testscript.pageobjects.HomePage] :Clicked Banks tab
+2014-07-11 17:56:29,094 INFO  [com.jopari.testscript.pageobjects.BanksPage] Message: [com.jopari.testscript.pageobjects.BanksPage] :Clicked Add Bank Account link
+2014-07-11 17:56:39,376 INFO  [com.jopari.testscript.testscripts.ProviderBanks] Message: [com.jopari.testscript.testscripts.ProviderBanks] :Killed processes

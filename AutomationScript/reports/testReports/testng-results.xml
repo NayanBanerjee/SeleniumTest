@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HRPersonalInfo" duration-ms="15877" started-at="2014-12-04T07:16:14Z" finished-at="2014-12-04T07:16:30Z">
+    <groups>
+    </groups>
+    <test name="HRPinfo" duration-ms="15877" started-at="2014-12-04T07:16:14Z" finished-at="2014-12-04T07:16:30Z">
+      <class name="com.jopari.testscript.testscripts.TravelRequest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, org.testng.ITestContext, java.lang.Boolean)[pri:0, instance:com.jopari.testscript.testscripts.TravelRequest@16fb862]" name="setUp" is-config="true" duration-ms="6423" started-at="2014-12-04T12:46:08Z" finished-at="2014-12-04T12:46:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://its.infogain.com:82/its/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://10.25.2.158:9701/PNCGH]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@11da8d0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.jopari.testscript.testscripts.TravelRequest@16fb862]" name="login" is-config="true" duration-ms="2002" started-at="2014-12-04T12:46:14Z" finished-at="2014-12-04T12:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getSelenium(boolean, java.lang.String)[pri:0, instance:com.jopari.testscript.testscripts.TravelRequest@16fb862]" name="getSelenium" is-config="true" duration-ms="0" started-at="2014-12-04T12:46:16Z" finished-at="2014-12-04T12:46:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSelenium -->
+        <test-method status="PASS" signature="loginwithDataSet(java.lang.String, java.lang.String)[pri:0, instance:com.jopari.testscript.testscripts.TravelRequest@16fb862]" name="loginwithDataSet" duration-ms="4838" started-at="2014-12-04T12:46:16Z" data-provider="getTestData" finished-at="2014-12-04T12:46:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google Nexus S]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[black]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithDataSet -->
+        <test-method status="PASS" signature="setTestContext(java.lang.reflect.Method)[pri:0, instance:com.jopari.testscript.testscripts.TravelRequest@16fb862]" name="setTestContext" is-config="true" duration-ms="0" started-at="2014-12-04T12:46:16Z" finished-at="2014-12-04T12:46:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jopari.testscript.testscripts.TravelRequest.loginwithDataSet(java.lang.String,java.lang.String) throws com.jopari.automation.webdriver.util.WebDriverUtilException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestContext -->
+        <test-method status="PASS" signature="loginwithDataSet(java.lang.String, java.lang.String)[pri:0, instance:com.jopari.testscript.testscripts.TravelRequest@16fb862]" name="loginwithDataSet" duration-ms="4400" started-at="2014-12-04T12:46:21Z" data-provider="getTestData" finished-at="2014-12-04T12:46:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone 4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[white]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithDataSet -->
+        <test-method status="PASS" signature="setTestContext(java.lang.reflect.Method)[pri:0, instance:com.jopari.testscript.testscripts.TravelRequest@16fb862]" name="setTestContext" is-config="true" duration-ms="0" started-at="2014-12-04T12:46:21Z" finished-at="2014-12-04T12:46:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jopari.testscript.testscripts.TravelRequest.loginwithDataSet(java.lang.String,java.lang.String) throws com.jopari.automation.webdriver.util.WebDriverUtilException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestContext -->
+        <test-method status="PASS" signature="loginwithDataSet(java.lang.String, java.lang.String)[pri:0, instance:com.jopari.testscript.testscripts.TravelRequest@16fb862]" name="loginwithDataSet" duration-ms="4618" started-at="2014-12-04T12:46:25Z" data-provider="getTestData" finished-at="2014-12-04T12:46:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Desire HD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[white]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithDataSet -->
+        <test-method status="PASS" signature="setTestContext(java.lang.reflect.Method)[pri:0, instance:com.jopari.testscript.testscripts.TravelRequest@16fb862]" name="setTestContext" is-config="true" duration-ms="0" started-at="2014-12-04T12:46:25Z" finished-at="2014-12-04T12:46:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jopari.testscript.testscripts.TravelRequest.loginwithDataSet(java.lang.String,java.lang.String) throws com.jopari.automation.webdriver.util.WebDriverUtilException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestContext -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jopari.testscript.testscripts.TravelRequest@16fb862]" name="tearDown" is-config="true" duration-ms="269" started-at="2014-12-04T12:46:30Z" finished-at="2014-12-04T12:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jopari.testscript.testscripts.TravelRequest -->
+    </test> <!-- HRPinfo -->
+  </suite> <!-- HRPersonalInfo -->
+</testng-results>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TC002_VerifyHomePage"
+           tests="16"
+           failures="7"
+           errors="0"
+           skipped="2"
+           time="287.492">
+  <properties />
+            <testcase name="setTestContext" time="0.000" classname="com.jopari.testscript.testscripts.ProviderHomePage">
+                <failure type="org.openqa.selenium.NoSuchWindowException"
+                  message="Window is closed (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+Build info: version: &apos;2.39.0&apos;, revision: &apos;14fa800511cc5d66d426e08b0b2ab926c7ed7398&apos;, time: &apos;2013-12-16 13:18:38&apos;
+System info: host: &apos;NayanBanerjee&apos;, ip: &apos;172.18.119.46&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: f7af2cc8-fae3-424e-8731-6d27de9fe28c
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=accept, version=10, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:14896/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]"
+              >
+<![CDATA[org.openqa.selenium.NoSuchWindowException: Window is closed (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'NayanBanerjee', ip: '172.18.119.46', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: f7af2cc8-fae3-424e-8731-6d27de9fe28c
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=accept, version=10, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:14896/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+  org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:444)
+  org.openqa.selenium.internal.seleniumemulation.Windows.<init>(Windows.java:38)
+  org.openqa.selenium.WebDriverCommandProcessor.setUpMethodMap(WebDriverCommandProcessor.java:190)
+  org.openqa.selenium.WebDriverCommandProcessor.<init>(WebDriverCommandProcessor.java:51)
+  org.openqa.selenium.WebDriverBackedSelenium.<init>(WebDriverBackedSelenium.java:32)
+  com.jopari.automation.selenium.test.BaseTestCase.setTestContext(BaseTestCase.java:145)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:606)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(FutureTask.java:262)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+  java.lang.Thread.run(Thread.java:744)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testSecurityPolicy" time="49.447" classname="com.jopari.testscript.testscripts.ProviderHomePage">
+                <failure type="java.lang.AssertionError"
+                  message="not pass"
+              >
+<![CDATA[java.lang.AssertionError: not pass
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.assertNotEquals(Assert.java:854)
+  com.jopari.testscript.testscripts.ProviderHomePage.testSecurityPolicy(ProviderHomePage.java:168)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:606)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(FutureTask.java:262)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+  java.lang.Thread.run(Thread.java:744)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testMutualofOmahaEFT" time="22.817" classname="com.jopari.testscript.testscripts.ProviderHomePage">
+                <failure type="java.lang.AssertionError"
+                  message="null"
+              >
+<![CDATA[java.lang.AssertionError: null
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.assertNotEquals(Assert.java:854)
+  org.testng.Assert.assertNotEquals(Assert.java:859)
+  com.jopari.testscript.testscripts.ProviderHomePage.testMutualofOmahaEFT(ProviderHomePage.java:905)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:606)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(FutureTask.java:262)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+  java.lang.Thread.run(Thread.java:744)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testTerms" time="21.993" classname="com.jopari.testscript.testscripts.ProviderHomePage">
+                <failure type="org.openqa.selenium.NoSuchWindowException"
+                  message="No window found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.79 seconds
+Build info: version: &apos;2.39.0&apos;, revision: &apos;14fa800511cc5d66d426e08b0b2ab926c7ed7398&apos;, time: &apos;2013-12-16 13:18:38&apos;
+System info: host: &apos;NayanBanerjee&apos;, ip: &apos;172.18.119.46&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: f7af2cc8-fae3-424e-8731-6d27de9fe28c
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=accept, version=10, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:14896/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]"
+              >
+<![CDATA[org.openqa.selenium.NoSuchWindowException: No window found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.79 seconds
+Build info: version: '2.39.0', revision: '14fa800511cc5d66d426e08b0b2ab926c7ed7398', time: '2013-12-16 13:18:38'
+System info: host: 'NayanBanerjee', ip: '172.18.119.46', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: f7af2cc8-fae3-424e-8731-6d27de9fe28c
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=accept, version=10, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:14896/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+  org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:831)
+  com.jopari.testscript.pageobjects.HomePage.closePopup(HomePage.java:328)
+  com.jopari.testscript.testscripts.ProviderHomePage.testTerms(ProviderHomePage.java:1576)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:606)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(FutureTask.java:262)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+  java.lang.Thread.run(Thread.java:744)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testNALCEFT" time="8.754" classname="com.jopari.testscript.testscripts.ProviderHomePage">
+                <failure type="java.lang.AssertionError"
+                  message="null"
+              >
+<![CDATA[java.lang.AssertionError: null
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.assertNotEquals(Assert.java:854)
+  org.testng.Assert.assertNotEquals(Assert.java:859)
+  com.jopari.testscript.testscripts.ProviderHomePage.testNALCEFT(ProviderHomePage.java:1122)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:606)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(FutureTask.java:262)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+  java.lang.Thread.run(Thread.java:744)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testConnectiCareEFT" time="22.015" classname="com.jopari.testscript.testscripts.ProviderHomePage">
+                <failure type="java.lang.AssertionError"
+                  message="null"
+              >
+<![CDATA[java.lang.AssertionError: null
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.assertNotEquals(Assert.java:854)
+  org.testng.Assert.assertNotEquals(Assert.java:859)
+  com.jopari.testscript.testscripts.ProviderHomePage.testConnectiCareEFT(ProviderHomePage.java:338)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:606)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(FutureTask.java:262)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+  java.lang.Thread.run(Thread.java:744)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testMutualofOmahaFAQ" time="19.954" classname="com.jopari.testscript.testscripts.ProviderHomePage">
+                <failure type="java.lang.AssertionError"
+                  message="null"
+              >
+<![CDATA[java.lang.AssertionError: null
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.assertNotEquals(Assert.java:854)
+  org.testng.Assert.assertNotEquals(Assert.java:859)
+  com.jopari.testscript.testscripts.ProviderHomePage.testMutualofOmahaFAQ(ProviderHomePage.java:956)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:606)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(FutureTask.java:262)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+  java.lang.Thread.run(Thread.java:744)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="testLogout" time="0.0" classname="com.jopari.testscript.testscripts.ProviderHomePage">
+          <skipped />
+    </testcase>
+            <testcase name="testCheckCopyrite" time="0.0" classname="com.jopari.testscript.testscripts.ProviderHomePage">
+          <skipped />
+    </testcase>
+  
+            <testcase name="testEmblemEFT" time="36.680" classname="com.jopari.testscript.testscripts.ProviderHomePage" />
+                <testcase name="testLincolnEFT" time="38.672" classname="com.jopari.testscript.testscripts.ProviderHomePage" />
+                <testcase name="testUsernameOnLeft" time="7.457" classname="com.jopari.testscript.testscripts.ProviderHomePage" />
+                <testcase name="testOxfordEFT" time="15.860" classname="com.jopari.testscript.testscripts.ProviderHomePage" />
+                <testcase name="testNALCFAQ" time="15.963" classname="com.jopari.testscript.testscripts.ProviderHomePage" />
+                <testcase name="testPrivacyPolicy" time="4.042" classname="com.jopari.testscript.testscripts.ProviderHomePage" />
+                <testcase name="testWebPortalFAQ" time="23.838" classname="com.jopari.testscript.testscripts.ProviderHomePage" />
+      
+</testsuite>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PNCPayee_Users"
+           tests="40"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="496.111">
+  <properties />
+  
+  
+            <testcase name="testNewUserPhoneInvalidAlphabets" time="5.378" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testNewUserShortNameValid" time="5.333" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testAddRole" time="3.745" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testDisableAndCancelLoggedInUser" time="13.839" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testNewUserInvalidEmail" time="7.367" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testNewUserEmptyFields" time="5.396" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testAddPayeeContainer" time="3.528" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testAddRoleCancel" time="4.821" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testNewUserExistingEmailId" time="5.854" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testRefresh" time="12.286" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testSearchCancel" time="8.250" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testAddAdminEmailInValid" time="43.872" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testAddAdminCancelButton" time="35.347" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testAddPayeeContainerSelectPayee" time="4.716" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testSearchFullNameInValid" time="10.486" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testResetPassword" time="6.219" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testNewUserPhoneInvalidSpecialCharacters" time="5.352" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testRemoveRoleLoggedInUser" time="28.214" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testAddAdminFullNameValid" time="13.784" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testNewUserCancelButton" time="11.287" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testSearchEmailValid" time="10.443" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testDisableUser" time="9.274" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testNewUserFullNameValid" time="4.387" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testSearchAll" time="12.281" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testDisableLoggedInUser" time="11.960" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testAddPayeeContainerCancel" time="33.933" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testNewUserAllCorrectInfo" time="6.075" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testRemoveAdmin" time="7.242" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testSearchFullNameValid" time="14.800" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testNewUserPhoneValid" time="4.384" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testNewUserValidEmail" time="5.444" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testSearchLoginInValid" time="10.469" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testRemovePayeeContainer" time="7.251" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testAddAdminInValidLogin" time="39.479" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testEnableUser" time="8.228" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testAddAdminFullNameInValid" time="35.438" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testSearchLoginValid" time="10.520" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testSearchEmailInValid" time="10.499" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testAddAdminEmailValid" time="9.461" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+                <testcase name="testAddAdminValidLogin" time="9.469" classname="com.jopari.testscript.testscripts.ProviderUsers" />
+      
+</testsuite>
