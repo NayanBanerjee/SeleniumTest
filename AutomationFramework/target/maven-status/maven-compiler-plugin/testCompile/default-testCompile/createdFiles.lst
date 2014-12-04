@@ -1,0 +1,5 @@
+com\jopari\automation\util\io\ExcelReaderTest.class
+com\jopari\automation\webdriver\util\WindowHelperTest.class
+com\jopari\automation\util\io\IOUtiltitesTest.class
+com\jopari\automation\webdriver\util\WebDriverUtilTest.class
+com\jopari\automation\util\calendar\CalendarUtilsTest.class

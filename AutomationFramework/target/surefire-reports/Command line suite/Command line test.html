@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 25 13:31:41 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (56 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.jopari.automation.util.io.IOUtiltitesTest.testBlankSpace()'><b>testBlankSpace</b><br>Test class: com.jopari.automation.util.io.IOUtiltitesTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.io.IOUtiltitesTest@583ecf</td></tr>
+<tr>
+<td title='com.jopari.automation.util.io.IOUtiltitesTest.testCreateDirectory()'><b>testCreateDirectory</b><br>Test class: com.jopari.automation.util.io.IOUtiltitesTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.io.IOUtiltitesTest@583ecf</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testFormatDate()'><b>testFormatDate</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.io.ExcelReaderTest.testGetColumnCount()'><b>testGetColumnCount</b><br>Test class: com.jopari.automation.util.io.ExcelReaderTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.io.ExcelReaderTest@8f2016</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testGetCurrentTime()'><b>testGetCurrentTime</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testGetCurrentTimeInKnownFormat()'><b>testGetCurrentTimeInKnownFormat</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testGetDate()'><b>testGetDate</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testGetDateFromFormat()'><b>testGetDateFromFormat</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testGetDateInNewFormat()'><b>testGetDateInNewFormat</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testGetDayNumOfMonth()'><b>testGetDayNumOfMonth</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testGetDayOfMonth()'><b>testGetDayOfMonth</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testGetDayOfWeek()'><b>testGetDayOfWeek</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.io.ExcelReaderTest.testGetHeader()'><b>testGetHeader</b><br>Test class: com.jopari.automation.util.io.ExcelReaderTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.io.ExcelReaderTest@8f2016</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testGetHoursOfDay()'><b>testGetHoursOfDay</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testGetMinutes()'><b>testGetMinutes</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testGetMonthName()'><b>testGetMonthName</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testGetMonthNum()'><b>testGetMonthNum</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.io.ExcelReaderTest.testGetNumValue()'><b>testGetNumValue</b><br>Test class: com.jopari.automation.util.io.ExcelReaderTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.io.ExcelReaderTest@8f2016</td></tr>
+<tr>
+<td title='com.jopari.automation.util.io.ExcelReaderTest.testGetRow()'><b>testGetRow</b><br>Test class: com.jopari.automation.util.io.ExcelReaderTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.io.ExcelReaderTest@8f2016</td></tr>
+<tr>
+<td title='com.jopari.automation.util.io.ExcelReaderTest.testGetRowCount()'><b>testGetRowCount</b><br>Test class: com.jopari.automation.util.io.ExcelReaderTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.io.ExcelReaderTest@8f2016</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testGetSeconds()'><b>testGetSeconds</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.io.ExcelReaderTest.testGetValue()'><b>testGetValue</b><br>Test class: com.jopari.automation.util.io.ExcelReaderTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.io.ExcelReaderTest@8f2016</td></tr>
+<tr>
+<td title='com.jopari.automation.util.io.ExcelReaderTest.testGetValueString()'><b>testGetValueString</b><br>Test class: com.jopari.automation.util.io.ExcelReaderTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.io.ExcelReaderTest@8f2016</td></tr>
+<tr>
+<td title='com.jopari.automation.util.io.ExcelReaderTest.testGetValues()'><b>testGetValues</b><br>Test class: com.jopari.automation.util.io.ExcelReaderTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.io.ExcelReaderTest@8f2016</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testGetYearNum()'><b>testGetYearNum</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.webdriver.util.WindowHelperTest.testIsAlphaNumeric()'><b>testIsAlphaNumeric</b><br>Test class: com.jopari.automation.webdriver.util.WindowHelperTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.webdriver.util.WindowHelperTest@12f203f</td></tr>
+<tr>
+<td title='com.jopari.automation.util.io.IOUtiltitesTest.testReadTextLinesInFile()'><b>testReadTextLinesInFile</b><br>Test class: com.jopari.automation.util.io.IOUtiltitesTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.io.IOUtiltitesTest@583ecf</td></tr>
+<tr>
+<td title='com.jopari.automation.webdriver.util.WebDriverUtilTest.testSort()'><b>testSort</b><br>Test class: com.jopari.automation.webdriver.util.WebDriverUtilTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.webdriver.util.WebDriverUtilTest@19f10e1</td></tr>
+<tr>
+<td title='com.jopari.automation.util.io.IOUtiltitesTest.testSpecialCharacter()'><b>testSpecialCharacter</b><br>Test class: com.jopari.automation.util.io.IOUtiltitesTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.io.IOUtiltitesTest@583ecf</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testadd()'><b>testadd</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testaddDay()'><b>testaddDay</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testaddHour()'><b>testaddHour</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testaddMinutes()'><b>testaddMinutes</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testaddMonth()'><b>testaddMonth</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testaddSeconds()'><b>testaddSeconds</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+<tr>
+<td title='com.jopari.automation.util.calendar.CalendarUtilsTest.testaddYear()'><b>testaddYear</b><br>Test class: com.jopari.automation.util.calendar.CalendarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b</td></tr>
+</table><p>
+</body>
+</html>

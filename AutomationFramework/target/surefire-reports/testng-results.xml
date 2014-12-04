@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="36" passed="36">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="56" started-at="2014-11-25T08:01:41Z" finished-at="2014-11-25T08:01:42Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="56" started-at="2014-11-25T08:01:41Z" finished-at="2014-11-25T08:01:42Z">
+      <class name="com.jopari.automation.util.io.ExcelReaderTest">
+        <test-method status="PASS" signature="testGetColumnCount()[pri:0, instance:com.jopari.automation.util.io.ExcelReaderTest@8f2016]" name="testGetColumnCount" duration-ms="1" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetColumnCount -->
+        <test-method status="PASS" signature="testGetNumValue()[pri:0, instance:com.jopari.automation.util.io.ExcelReaderTest@8f2016]" name="testGetNumValue" duration-ms="2" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetNumValue -->
+        <test-method status="PASS" signature="testGetHeader()[pri:0, instance:com.jopari.automation.util.io.ExcelReaderTest@8f2016]" name="testGetHeader" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHeader -->
+        <test-method status="PASS" signature="testGetRow()[pri:0, instance:com.jopari.automation.util.io.ExcelReaderTest@8f2016]" name="testGetRow" duration-ms="7" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRow -->
+        <test-method status="PASS" signature="testGetValue()[pri:0, instance:com.jopari.automation.util.io.ExcelReaderTest@8f2016]" name="testGetValue" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetValue -->
+        <test-method status="PASS" signature="testGetValueString()[pri:0, instance:com.jopari.automation.util.io.ExcelReaderTest@8f2016]" name="testGetValueString" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetValueString -->
+        <test-method status="PASS" signature="testGetRowCount()[pri:0, instance:com.jopari.automation.util.io.ExcelReaderTest@8f2016]" name="testGetRowCount" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRowCount -->
+        <test-method status="PASS" signature="testGetValues()[pri:0, instance:com.jopari.automation.util.io.ExcelReaderTest@8f2016]" name="testGetValues" duration-ms="1" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetValues -->
+      </class> <!-- com.jopari.automation.util.io.ExcelReaderTest -->
+      <class name="com.jopari.automation.util.io.IOUtiltitesTest">
+        <test-method status="PASS" signature="testBlankSpace()[pri:0, instance:com.jopari.automation.util.io.IOUtiltitesTest@583ecf]" name="testBlankSpace" duration-ms="1" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlankSpace -->
+        <test-method status="PASS" signature="testCreateDirectory()[pri:0, instance:com.jopari.automation.util.io.IOUtiltitesTest@583ecf]" name="testCreateDirectory" duration-ms="1" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateDirectory -->
+        <test-method status="PASS" signature="testReadTextLinesInFile()[pri:0, instance:com.jopari.automation.util.io.IOUtiltitesTest@583ecf]" name="testReadTextLinesInFile" duration-ms="1" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadTextLinesInFile -->
+        <test-method status="PASS" signature="testSpecialCharacter()[pri:0, instance:com.jopari.automation.util.io.IOUtiltitesTest@583ecf]" name="testSpecialCharacter" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpecialCharacter -->
+      </class> <!-- com.jopari.automation.util.io.IOUtiltitesTest -->
+      <class name="com.jopari.automation.util.calendar.CalendarUtilsTest">
+        <test-method status="PASS" signature="testFormatDate()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testFormatDate" duration-ms="8" started-at="2014-11-25T13:31:41Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormatDate -->
+        <test-method status="PASS" signature="testGetCurrentTime()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testGetCurrentTime" duration-ms="7" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCurrentTime -->
+        <test-method status="PASS" signature="testGetDate()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testGetDate" duration-ms="1" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDate -->
+        <test-method status="PASS" signature="testGetCurrentTimeInKnownFormat()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testGetCurrentTimeInKnownFormat" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCurrentTimeInKnownFormat -->
+        <test-method status="PASS" signature="testGetDateFromFormat()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testGetDateFromFormat" duration-ms="2" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDateFromFormat -->
+        <test-method status="PASS" signature="testGetDateInNewFormat()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testGetDateInNewFormat" duration-ms="1" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDateInNewFormat -->
+        <test-method status="PASS" signature="testGetDayOfWeek()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testGetDayOfWeek" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDayOfWeek -->
+        <test-method status="PASS" signature="testGetHoursOfDay()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testGetHoursOfDay" duration-ms="1" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHoursOfDay -->
+        <test-method status="PASS" signature="testGetDayOfMonth()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testGetDayOfMonth" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDayOfMonth -->
+        <test-method status="PASS" signature="testGetDayNumOfMonth()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testGetDayNumOfMonth" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDayNumOfMonth -->
+        <test-method status="PASS" signature="testGetMinutes()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testGetMinutes" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMinutes -->
+        <test-method status="PASS" signature="testGetSeconds()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testGetSeconds" duration-ms="1" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSeconds -->
+        <test-method status="PASS" signature="testGetMonthName()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testGetMonthName" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMonthName -->
+        <test-method status="PASS" signature="testGetMonthNum()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testGetMonthNum" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMonthNum -->
+        <test-method status="PASS" signature="testaddDay()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testaddDay" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddDay -->
+        <test-method status="PASS" signature="testaddHour()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testaddHour" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddHour -->
+        <test-method status="PASS" signature="testGetYearNum()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testGetYearNum" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetYearNum -->
+        <test-method status="PASS" signature="testadd()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testadd" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testadd -->
+        <test-method status="PASS" signature="testaddYear()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testaddYear" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddYear -->
+        <test-method status="PASS" signature="testaddSeconds()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testaddSeconds" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddSeconds -->
+        <test-method status="PASS" signature="testaddMinutes()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testaddMinutes" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddMinutes -->
+        <test-method status="PASS" signature="testaddMonth()[pri:0, instance:com.jopari.automation.util.calendar.CalendarUtilsTest@f2bd5b]" name="testaddMonth" duration-ms="0" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddMonth -->
+      </class> <!-- com.jopari.automation.util.calendar.CalendarUtilsTest -->
+      <class name="com.jopari.automation.webdriver.util.WebDriverUtilTest">
+        <test-method status="PASS" signature="testSort()[pri:0, instance:com.jopari.automation.webdriver.util.WebDriverUtilTest@19f10e1]" name="testSort" duration-ms="6" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSort -->
+      </class> <!-- com.jopari.automation.webdriver.util.WebDriverUtilTest -->
+      <class name="com.jopari.automation.webdriver.util.WindowHelperTest">
+        <test-method status="PASS" signature="testIsAlphaNumeric()[pri:0, instance:com.jopari.automation.webdriver.util.WindowHelperTest@12f203f]" name="testIsAlphaNumeric" duration-ms="4" started-at="2014-11-25T13:31:42Z" finished-at="2014-11-25T13:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsAlphaNumeric -->
+      </class> <!-- com.jopari.automation.webdriver.util.WindowHelperTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
